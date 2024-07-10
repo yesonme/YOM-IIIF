@@ -1,0 +1,67 @@
+{
+  "id" : "https://yesonme.github.io/YOM-IIIF/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in yesonme/YOM-IIIF project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 26791,
+    "id" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting/canvas/",
+    "label" : {
+      "none" : [ "chumolanting" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 838,
+              "height" : 34
+            }, {
+              "width" : 1675,
+              "height" : 68
+            }, {
+              "width" : 3349,
+              "height" : 135
+            }, {
+              "width" : 6698,
+              "height" : 270
+            }, {
+              "width" : 13396,
+              "height" : 540
+            }, {
+              "width" : 26791,
+              "height" : 1080
+            } ],
+            "profile" : "level0",
+            "width" : 26791,
+            "id" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 1080
+          } ],
+          "format" : "image/jpeg",
+          "width" : 26791,
+          "id" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 1080
+        },
+        "target" : "https://yesonme.github.io/YOM-IIIF/images/chumolanting/canvas/"
+      } ]
+    } ],
+    "height" : 1080
+  } ]
+}
